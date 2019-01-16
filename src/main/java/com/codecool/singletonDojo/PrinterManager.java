@@ -12,10 +12,8 @@ public class PrinterManager {
     // Write some code that tests all functionality!
 
     public static void main(String[] args) {
-        for (int i = 0; i < 15; i++) {
-            Printer printer = Printer.getInstance();
-            printer.print("Something to print.");
-        }
-    }
+        PrinterRoom printerRoom = PrinterRoom.getInstance();
+        printerRoom.printPrinterID();
 
+    }
 }

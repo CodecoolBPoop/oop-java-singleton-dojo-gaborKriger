@@ -11,6 +11,10 @@ public class Printer {
         this.id = id;
     }
 
+    public int getId() {
+        return id;
+    }
+
     // Prints out the given String
     public void print(String toPrint) {
         // Its not needed to actually print with a printer in this exercise
